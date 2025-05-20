@@ -1,0 +1,195 @@
+
+.container-fluid{
+    max-width:720px;
+}
+
+.hero {
+
+    padding:1rem 0 1.75rem;
+    position: relative;
+}
+.hero h1{
+    color: var(--Blue, #0A3D88);
+    font-size: 3.125rem;
+    font-weight: 400;
+    line-height: 3.1rem;
+    margin-bottom:.5rem;
+}
+.hero p{
+    color: var(--Blue, #0A3D88);
+    font-size: 1.2635rem;
+    font-weight: 400;
+    line-height: 1.88375rem;
+    margin-bottom:1.5rem;
+}
+.hero img.seal{
+    position: absolute;
+    bottom:-5.125rem;
+    right: -1.5rem;
+}
+.hero .col-10 {
+    position: relative;
+}
+.life img.gradient{
+vertical-align: top;
+}
+
+.life .bl-div{
+    background: var(--Blue, #0A3D88);
+    padding:.75rem 0;
+}
+
+.life .bl-div p{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.21756rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.25569rem;
+}
+.life .bl-div p img{
+    padding:0 1rem;
+}
+
+
+.life .orng-bg{
+    background: var(--Orange, #EE4E25);
+    padding:1.4rem 2.6rem;
+}
+.life h3{
+    color: var(--Off-White, #F6F5F0);
+    text-align: center;
+    font-size: 1.97rem;
+    font-weight: 400;
+    line-height: 2.15rem;
+}
+
+.life .orng-bg p{
+    color: var(--Off-White, #F6F5F0);
+    text-align: center;
+    font-size: 1.26rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.nms-overflow .wave-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width:6.188rem;
+    padding:0;
+    margin:1.25rem 0 .2rem auto
+}
+.nms-overflow .wave-wrap img{
+    width:6.188rem;
+    height:auto;
+}
+.nms-overflow{
+    background: var(--Off-White, #F6F5F0);
+    padding:0 0 2.5rem;
+}
+
+
+
+.nms-overflow .img-wrap{
+    display: flex;
+    overflow: auto;
+    gap: 2.4rem;
+    padding: 0 5rem 0 5rem; 
+}
+
+
+.nms-overflow .item {
+    display: flex;
+    width: 16.5rem;
+    height: 33.5rem;
+    padding: 0px 8px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+.nms-overflow .item img{
+margin-bottom:1.5rem;
+}
+.nms-overflow h4{
+    color: var(--Blue, #0A3D88);
+    text-align: center;
+    font-size: 2.76rem;
+    font-weight: 400;
+    line-height: 1.9375rem;
+    margin-bottom:1.5rem;
+}
+.nms-overflow .item p{
+    color: var(--Blue, #0A3D88);
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.nms-overflow .cta-wrap{
+    text-align: center;
+}
+
+.hiw{
+    background: url(../../media/home/hiw-bg-palm.webp)#A4E1E2 top center no-repeat;
+    background-size: cover;
+    padding:4.48rem 0 3.06rem;
+    position: relative;
+}
+.hiw .wave-divider {
+    position: absolute;
+    top: -1rem;
+    left: 0;
+}
+.hiw img.icon{
+    margin-bottom:1.2rem;
+}
+.hiw h3{
+    color: var(--Blue, #0A3D88);
+    text-align: center;
+    font-size: 2.76rem;
+    font-weight: 400;
+    line-height: 2.527rem;
+    margin-bottom:4.1rem;
+}
+
+.hiw h4{
+    color: var(--Blue, #0A3D88);
+text-align: center;
+font-size: 2.297rem;
+font-weight: 400;
+line-height: 2.527rem;
+}
+
+.hiw p{
+    color: var(--Blue, #0A3D88);
+    font-size: 1.263rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    margin-bottom:5.625rem;
+}
+
+.hiw .live p{
+    margin-bottom:2.812rem;
+}
+
+
+
+
+
+
+@media(min-width:768px){
+    .nms-overflow .img-wrap{
+        overflow: hidden;
+        padding: 0 5rem 0 0rem; 
+    }
+    .nms-overflow .item {
+        width: 13.5rem;
+    }
+    .nms-overflow h4 {
+        font-size: 2.2rem;
+    }
+}
